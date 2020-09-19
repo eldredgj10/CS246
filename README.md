@@ -16,4 +16,9 @@ To execute the program: `python HelloWorld.py` or hit run in visual studio code.
 ![Results from Execution](executionpic.jpeg) 
 
 # Useful Websites
+* Video Provided
+* github.com
+* git-scm.com
+* python.org
+* visualstudio.com
 
