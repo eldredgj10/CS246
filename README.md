@@ -1,18 +1,19 @@
-A description of your program.
-    My program is a short Python code that displays "Hello World" to the terminal.
+# Overview
 
-How to set up the development environment, including all tools. Provide detailed steps so that you or another engineer could replicate the environment.
+This program will display "Hello World". It demonstrates Python and tests Visual studio code and git connection.
+
+# Development Environment
+
+* Visual Studio Code 
+* Python 3.8.5
+* github
 
 
-How to build, execute, and use your program as applicable for your development environment.
+# Execution
 
-Screenshots showing the results of your program.
+To execute the program: `python HelloWorld.py` or hit run in visual studio code.
 
-A list of useful websites that you found to assist your development work.
-    Video provided
-    github.com
-    git-scm.com
-    python.org
-    code.visualstudio.com
+![Results from Execution](executionpic.jpeg) 
 
+# Useful Websites
 
