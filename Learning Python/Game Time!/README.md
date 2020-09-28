@@ -51,12 +51,13 @@ If so, typing Y will restart the loop.
 ![Calculating Modifications](loopgame.JPG)
 
 Typing N will result in the end of the program and it will exit.
+
 ![Calculating Modifications](endgame.JPG)
 
 ## Protection
 Each input is protected with exception statements or while statements to be sure that the correct input is put into the program
 
-![Protection in code](protection.JPG)
+![Protection in code](Protection.JPG)
 
 # Useful Websites and other Resources
 * https://www.pythonforbeginners.com/basics/break-and-continue-statements
