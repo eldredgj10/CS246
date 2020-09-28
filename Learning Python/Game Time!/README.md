@@ -56,7 +56,7 @@ Typing N will result in the end of the program and it will exit.
 ## Protection
 Each input is protected with exception statements or while statements to be sure that the correct input is put into the program
 
-![Calculating Modifications](protection.JPG)
+![Protection in code](protection.JPG)
 
 # Useful Websites and other Resources
 * https://www.pythonforbeginners.com/basics/break-and-continue-statements
