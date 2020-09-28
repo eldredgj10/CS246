@@ -51,6 +51,7 @@ If so, typing Y will restart the loop.
 ![Calculating Modifications](loopgame.JPG)
 
 Typing N will result in the end of the program and it will exit.
+
 ![Calculating Modifications](endgame.JPG)
 
 ## Protection
