@@ -17,7 +17,7 @@ It will then ask the user if modifiers are needed and modify it according to the
 To execute the program: `python DiceRoller.py` or hit run in visual studio code.
 
 ## Beginning
-The program will welcom you and ask you to enter a dice name. 
+The program will welcome you and ask you to enter a dice name. 
 Then it asks how many of that dice do you need. 
 The loop continues until you type 'done'.
 
