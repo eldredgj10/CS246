@@ -17,7 +17,7 @@ It will then ask the user if modifiers are needed and modify it according to the
 To execute the program: `python DiceRoller.py` or hit run in visual studio code.
 
 ## Beginning
-The program will welcom you and ask you to enter a dice name. 
+The program will welcome you and ask you to enter a dice name. 
 Then it asks how many of that dice do you need. 
 The loop continues until you type 'done'.
 
@@ -30,12 +30,14 @@ The loop continues until you type 'done'.
 
 ## Modifying loop
  Modifying the roll gives the user 4 options. If at the beginning the roll doesn't need to be modified, hitting enter will skip the modifying loop and continue the program.
+ 
  ![Calculating Modifications](enter=skip.JPG)
 
  If the roll does need to be modified, the user can modify it by adding, subtracting, or dividing.
  These situations are looped so that a user can do multiple calculations on one roll. 
 
  After selecting the operation, the program will ask for the number to complete the math equation and calculate the change. It will then display the new number and ask if the number needs to be modified more. 
+ 
  ![Calculating Modifications](modified.JPG)
 
  If the roll needs to be modified, a user can enter Y. If not, typing N will display the modified sum and continue the program.
@@ -57,7 +59,7 @@ Typing N will result in the end of the program and it will exit.
 ## Protection
 Each input is protected with exception statements or while statements to be sure that the correct input is put into the program
 
-![Protection in code](protection.JPG)
+![Protection in code](Protection.JPG)
 
 # Useful Websites and other Resources
 * https://www.pythonforbeginners.com/basics/break-and-continue-statements
