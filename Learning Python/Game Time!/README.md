@@ -36,6 +36,7 @@ The loop continues until you type 'done'.
  These situations are looped so that a user can do multiple calculations on one roll. 
 
  After selecting the operation, the program will ask for the number to complete the math equation and calculate the change. It will then display the new number and ask if the number needs to be modified more. 
+ 
  ![Calculating Modifications](modified.JPG)
 
  If the roll needs to be modified, a user can enter Y. If not, typing N will display the modified sum and continue the program.
