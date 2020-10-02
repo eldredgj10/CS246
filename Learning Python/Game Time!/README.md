@@ -30,6 +30,7 @@ The loop continues until you type 'done'.
 
 ## Modifying loop
  Modifying the roll gives the user 4 options. If at the beginning the roll doesn't need to be modified, hitting enter will skip the modifying loop and continue the program.
+ 
  ![Calculating Modifications](enter=skip.JPG)
 
  If the roll does need to be modified, the user can modify it by adding, subtracting, or dividing.
