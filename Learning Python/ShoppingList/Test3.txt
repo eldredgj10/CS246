@@ -1,0 +1,11 @@
+Groceries:
+--------------
+Peas   3
+
+Toilitries:
+ --------------
+Tooth Paste   2
+
+Others:
+ --------------
+Shoes   2
