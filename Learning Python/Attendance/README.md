@@ -68,7 +68,7 @@ Typing 6 will stop the continous loop of choices and end the program
 ![Ending the program](6.JPG)
 
 ## Protection
-Each input is protected with statements or loops to be sure that the correct input is put into the program
+Each input is protected with statements or loops to be sure that the correct input is put into the program.
 
 ![Protection in code](inputprotection.JPG)
 
