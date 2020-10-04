@@ -62,3 +62,4 @@ Each value input is protected with statements or loops to be sure that the corre
 * https://www.w3schools.com/python/python_classes.asp
 * https://www.w3schools.com/python/python_inheritance.asp
 * https://www.daniweb.com/programming/software-development/code/216631/a-list-of-class-objects-python
+* https://www.w3schools.com/python/gloss_python_global_variables.asp
