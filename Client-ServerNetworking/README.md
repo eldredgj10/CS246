@@ -1,6 +1,6 @@
 # Overview
 
-This program creates a Server for which computers can connect to and chat to a single computer connected or to all the computers connected.
+This program creates a Server for which computers can connect to and chat to a single computer connected or to all the computers connected. This server is a client - server network using TCP.
 
 # Development Environment
 
@@ -26,13 +26,14 @@ When it has connected to a computer, it will print the nickname of the computer 
 
 ![Server look for set up](ServerSetUp.JPG)
 
-This is the veiw of the connecting computers.
+This is the veiw of the connecting computers. (This is from my Virtual Computer on my computer.)
+
+![Computer look for connecting computer or virtual computers](1computerconnect.JPG)
 
 
 ## Chat Room
 
 If there is only one computer connected to the server, the messages will be shared to the computer and the server. The server will not respond but the messages can be seen.
-
 
 When there is more than one computer connected to the server, the server will ask the client which client it wants to send the message to or if it wants to send the message to all computers.
 

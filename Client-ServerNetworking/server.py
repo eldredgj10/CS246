@@ -26,7 +26,7 @@ def beginningSetUp():
                 period +=1
 
     port = int(input("Please enter port number to begin server: "))
-    while port < 1000:
+    while int(port) < 1000:
         port = input( "It is suggested to use a high number port to avoid interference with other programs. Please enter a number above 1000: ")
 
 # This function is the threading function that handles multiple computers connected to the server.
@@ -87,7 +87,7 @@ def sending(msg):
 # This is the set up of the server and the program.
 beginningSetUp()
 serversock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-serversock.bind((host, port))
+serversock.bind((host, int(port)))
 print(socket.gethostname(), "server has been started! Waiting for connection...")
 serversock.listen(1)
 
@@ -95,7 +95,9 @@ serversock.listen(1)
 while True:
     client, address = serversock.accept()
     computers.append(client)
-    client.send(bytes("Welcome to ", socket.gethostname()," server! \n", "utf-8"))
+    client.send(bytes("Welcome to ", "utf-8"))
+    client.send(bytes(socket.gethostname(), "utf-8"))
+    client.send(bytes(" server! \n", "utf-8"))
     client.send(bytes("Please enter name: ", "utf-8"))
     name = client.recv(1024)
     print("Connected to (" ,name, ")!")
