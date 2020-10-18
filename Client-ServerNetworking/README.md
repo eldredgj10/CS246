@@ -53,5 +53,5 @@ The input for the IP address and for the Port are checked to be sure they have v
 * https://www.youtube.com/watch?v=Lbfe3-v7yE0
 * https://www.youtube.com/watch?v=FGdiSJakIS4&t=5s
 * https://stackoverflow.com/questions/51961386/typeerror-string-argument-without-an-encoding
-* 
-
+* https://en.wikipedia.org/wiki/Transmission_Control_Protocol
+* https://www.howtogeek.com/190014/htg-explains-what-is-the-difference-between-tcp-and-udp/
