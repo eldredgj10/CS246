@@ -34,44 +34,44 @@ def beginningSetUp():
 def chatHandle(client, address):
     global computers
     while True:
-        if len(names) != 1:
-            client.send(bytes("\nWho would you like to send a message to?","utf-8"))
-            for name in names:
-                client.send(bytes("\n", "utf-8"))
-                client.send(bytes(name))
-                client.send(bytes("\n","utf-8"))
-            client.send(bytes("Type their name or 'all' to send to all machines. Hit 'enter' to quit: ","utf-8"))
-            choice = client.recv(1024)
+        # if len(names) != 1:
+        #     client.send(bytes("\nWho would you like to send a message to?\n","utf-8"))
+        #     for name in names:
+        #         client.send(bytes(name))
+        #         client.send(bytes("\n","utf-8"))
+        #     client.send(bytes("Type their name or 'all' to send to all machines. Hit 'enter' to quit: ","utf-8"))
+        #     choice = client.recv(1024)
+        #     client.send(bytes("Enter message: ","utf-8"))
+        #     msg = client.recv(1024)
+        #     if str(choice) != "all" and len(names)>1:
+        #         match = 0
+        #         for name in names:
+        #             if str(choice) == name:
+        #                 computers[match].send(bytes(msg, "utf-8"))
+        #             else:
+        #                 match +=1
+        #     if str(choice)=="all" or len(names)==1:
+        #         sending(msg)
+        #     if msg == '':
+        #         client.send(bytes("Thank you for Joining the Chat!", "utf-8"))
+        #         computers.remove(client)
+        #         return
+        # else:
             client.send(bytes("Enter message: ","utf-8"))
             msg = client.recv(1024)
-            if str(choice) != "all" and len(names)>1:
-                match = 0
-                for name in names:
-                    if str(choice) == name:
-                        computers[match].send(bytes(msg, "utf-8"))
-                    else:
-                        match +=1
-            if str(choice)=="all" or len(names)==1:
-                sending(msg)
-            if msg == '':
-                client.send(bytes("Thank you for Joining the Chat!", "utf-8"))
-                computers.remove(client)
-                return
-        else:
-            client.send(bytes("Enter message: ","utf-8"))
-            msg = client.recv(1024)
-            sending(msg)
+            sending(client, msg)
 
 # This function handles sending texts to all computers on the server. This is called when the user selects all computers 
 # or when there is only one computer on the server.
-def sending(msg):
+def sending(client, msg):
     if len(msg) == 0:
         computers.remove(client)
         client.close()
         return
     else:
         for computer in computers:
-            computer.send(bytes(msg))
+            if computer != client:
+                computer.send(bytes(msg))
         if len(msg) == 0:
             computers.remove(client)
             client.close()
@@ -102,6 +102,7 @@ while True:
     name = client.recv(1024)
     print("Connected to (" ,name, ")!")
     names.append(name)
+
     chatThread = threading.Thread(target = chatHandle, args=(client, address))
     #chatThread = threading.Thread(target = sending, args=(client, address))
     chatThread.daemon = True
