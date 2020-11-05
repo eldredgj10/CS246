@@ -2,6 +2,8 @@
 
 import java.util.Scanner;
 
+import javax.print.event.PrintJobListener;
+
 public class calculator{
     public static float number = 0;
     public static float secondnumber = 0;
@@ -18,7 +20,6 @@ public class calculator{
             if(input.hasNextFloat())
             {
                 number = input.nextFloat();
-                error = input.next();
             }
             else{
                 while(!input.hasNextFloat()){
@@ -37,9 +38,15 @@ public class calculator{
                     error = input.next();
                 }
                 secondnumber = input.nextFloat();
-            };
+            }
+
             System.out.print("Enter +, -, *, / and hit enter: ");
-            symbol = input.nextLine();
+            if(error.equals(symbol))
+            {
+                System.out.print(error);
+                symbol = "";
+            }
+            symbol = input.next();
             while(!symbol.equals("+") && !symbol.equals("-") && !symbol.equals("*") && !symbol.equals("/")){
                 System.out.println("Please enter a correct symbol: ");
                 symbol = input.next();
