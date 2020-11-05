@@ -56,10 +56,15 @@ Typing N will end the program.
 ![Ending the program](N.JPG)
 
 ## Protection
-The number, symbol, and the loop input choices are protected to be sure that the correct input is put in. There is one bug on number input error check I am trying to fix.
+The number, symbol, and the loop input choices are protected to be sure that the correct input is put in.
 ![Protection in the number](Protectiononnum.JPG)
 ![Protection in code](Protectiononinput.JPG)
 
 
 # Useful Websites and other Resources
+* https://www.w3schools.com/java/java_classes.asp
+* https://www.java67.com/2015/10/how-to-convert-float-to-int-in-java-example.html
+* https://dojo.domo.com/t5/Workbench/What-the-difference-between-double-and-long-data-types/td-p/15852#
+* https://stackoverflow.com/questions/30249324/how-to-get-java-to-wait-for-user-input/30249614
+* http://pages.cs.wisc.edu/~hasti/cs368/JavaTutorial/NOTES/JavaIO_Scanner.html
 * 
