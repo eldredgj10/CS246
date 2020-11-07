@@ -2,8 +2,6 @@
 
 import java.util.Scanner;
 
-import javax.print.event.PrintJobListener;
-
 public class calculator{
     public static float number = 0;
     public static float secondnumber = 0;
