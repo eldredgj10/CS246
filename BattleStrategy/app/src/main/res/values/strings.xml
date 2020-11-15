@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Battle  Strategy</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="Break">Break the Cycle</string>
+    <string name="Meditate">Meditation</string>
+    <string name="Backto">Back To Reality</string>
+    <string name="Previous">Back</string>
+    <string name="Write">Write it down</string>
+    <string name="Next">Next</string>
+    <string name="New">New Idea</string>
+    <string name="Pause">Pause</string>
+    <string name="Play">Play</string>
+    <string name="put">Put Your Worries Away</string>
+    <string name="error"><font fgcolor="#FFFFFFFF">Error!</font></string>
+    <string name="writeInstruction">Write down your worries</string>
+    <string name="About">About App</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
