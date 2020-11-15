@@ -14,6 +14,9 @@ This is the beginning of an Anxiety attack relief and prevention app called Batt
 ## So Far
 The app navigation and design is complete, with 6 fragments designed and linked. The back ground code on each fragment is still in the process of being completed.
 
+![Design](Androidpic.JPG)
+
+![Navigation](Navigation.JPG)
 
 # Useful Websites and other Resources
 * https://developer.android.com/codelabs/build-your-first-android-app#3
