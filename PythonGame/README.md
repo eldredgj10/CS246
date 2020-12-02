@@ -2,6 +2,8 @@
 
 This program is a pygame design, based on the movie "Thomas and the Magic Railroad." The goal of the game is collect enough coal to beat the evil Diesel 10 in a chase to the Viaduct.
 
+Train Art done by Jamesfan1991 on Deviantart. Permission to use Train art, granted by Jamesfan1991.
+
 # Development Environment
 
 * Visual Studio Code 
