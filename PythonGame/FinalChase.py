@@ -53,7 +53,7 @@ def LadyMovement():
             if xPlayer > screen_width:
                 xPlayer = 0
         else:
-            xPlayer = xPlayer - 1
+            xPlayer = xPlayer - 2
     if keys[pygame.K_RIGHT]:
         if xPlayer < 0 or xPlayer > screen_width:
             if xPlayer < 0:
@@ -61,7 +61,7 @@ def LadyMovement():
             if xPlayer > screen_width:
                 xPlayer = 0
         else:
-            xPlayer = xPlayer + 1
+            xPlayer = xPlayer + 2
     if keys[pygame.K_UP]:
         if yPlayer < 0 or yPlayer > screen_height:
             if yPlayer < 0:
@@ -69,7 +69,7 @@ def LadyMovement():
             if yPlayer > screen_height:
                 yPlayer = 0
         else:
-            yPlayer = yPlayer-1
+            yPlayer = yPlayer-2
     if keys[pygame.K_DOWN]:
         if yPlayer < 0 or yPlayer > screen_height:
             if yPlayer < 0:
@@ -77,7 +77,7 @@ def LadyMovement():
             if yPlayer > screen_height:
                 yPlayer = 0
         else:
-            yPlayer =yPlayer +1
+            yPlayer =yPlayer +2
 
 
 def ChaseMovement():
